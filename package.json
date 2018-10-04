@@ -1,0 +1,28 @@
+{
+  "name": "@cuties/json",
+  "version": "1.0.0",
+  "description": "Cutie extension for JSON in js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test-executor"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guseyn/cutie-json.git"
+  },
+  "keywords": [
+    "cutie",
+    "json"
+  ],
+  "dependencies": {
+    "@cuties/cutie": "1.4.4",
+    "@cuties/assert": "1.1.5",
+    "test-executor": "1.1.2"
+  },
+  "author": "guseyn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Guseyn/cutie-json/issues"
+  },
+  "homepage": "https://github.com/Guseyn/cutie-json#readme"
+}
