@@ -1,4 +1,4 @@
-# cutie-assert
+# cutie-json
 
 [![NPM Version][npm-image]][npm-url]
 
