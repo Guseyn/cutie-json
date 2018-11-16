@@ -1,6 +1,6 @@
 {
   "name": "@cuties/json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cutie extension for JSON in js.",
   "main": "index.js",
   "scripts": {
