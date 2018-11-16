@@ -21,6 +21,7 @@ For more information about parameters in the async objects visit [docs](https://
 | Async Object  | Async/sync call | Parameters(default value/description) | Representation result |
 | ------------- | ----------------| ---------- | --------------------- |
 | `ParsedJSON`     | `JSON.parse` | `string` | `json` |
+| `PrettyStringifiedJSON` | sync call from `json-stringify-pretty-compact` module | `json` | `string` |
 | `StringifiedJSON` | `JSON.stringify` | `json` | `string` |
 | `Value` | `eval('json' + '.' + path)` | `json, path` | `value` |
 

@@ -1,6 +1,6 @@
 {
   "name": "@cuties/json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cutie extension for JSON in js.",
   "main": "index.js",
   "scripts": {
@@ -15,8 +15,9 @@
     "json"
   ],
   "dependencies": {
-    "@cuties/cutie": "1.4.4",
     "@cuties/assert": "1.1.5",
+    "@cuties/cutie": "1.4.4",
+    "json-stringify-pretty-compact": "^1.2.0",
     "test-executor": "1.1.2"
   },
   "author": "guseyn",
