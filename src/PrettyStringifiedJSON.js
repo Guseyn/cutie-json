@@ -1,19 +1,17 @@
 'use strict'
 
-const AsyncObject = require('@cuties/cutie').AsyncObject;
-const prettyStringify = require("json-stringify-pretty-compact");
+const AsyncObject = require('@cuties/cutie').AsyncObject
+const prettyStringify = require('json-stringify-pretty-compact')
 
 // Represented result is string
 class PrettyStringifiedJSON extends AsyncObject {
-
-  constructor(json) {
-    super(json);
+  constructor (json) {
+    super(json)
   }
 
-  definedSyncCall() {
-    return prettyStringify;
+  definedSyncCall () {
+    return prettyStringify
   }
-
 }
 
-module.exports = PrettyStringifiedJSON;
+module.exports = PrettyStringifiedJSON
