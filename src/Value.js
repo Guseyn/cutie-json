@@ -1,21 +1,19 @@
 'use strict'
 
-const AsyncObject = require('@cuties/cutie').AsyncObject;
+const AsyncObject = require('@cuties/cutie').AsyncObject
 
 // Represented result is value
 class Value extends AsyncObject {
-
   // path has signature: 'key1.key2.key3[0]'
-  constructor(json, path) {
-    super(json, path);
+  constructor (json, path) {
+    super(json, path)
   }
 
-  definedSyncCall() {
+  definedSyncCall () {
     return (json, path) => {
-      return eval('json' + '.' + path);
+      return eval(`json.${path}`)
     }
   }
-
 }
 
-module.exports = Value;
+module.exports = Value

@@ -1,18 +1,16 @@
 'use strict'
 
-const AsyncObject = require('@cuties/cutie').AsyncObject;
+const AsyncObject = require('@cuties/cutie').AsyncObject
 
 // Represented result is string
 class StringifiedJSON extends AsyncObject {
-
-  constructor(json) {
-    super(json);
+  constructor (json) {
+    super(json)
   }
 
-  definedSyncCall() {
-    return JSON.stringify;
+  definedSyncCall () {
+    return JSON.stringify
   }
-
 }
 
-module.exports = StringifiedJSON;
+module.exports = StringifiedJSON
