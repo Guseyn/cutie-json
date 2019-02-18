@@ -38,6 +38,3 @@ For more information about parameters in the async objects visit [docs](https://
 | `PrettyStringifiedJSON` | sync call from `json-stringify-pretty-compact` module | `json` | `string` |
 | `StringifiedJSON` | `JSON.stringify` | `json` | `string` |
 | `Value` | `eval('json' + '.' + path)` | `json, path` | `value` |
-
-[npm-image]: https://img.shields.io/npm/v/@cuties/json.svg
-[npm-url]: https://npmjs.org/package/@cuties/json
