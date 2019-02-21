@@ -9,7 +9,7 @@ class PrettyStringifiedJSON extends AsyncObject {
     super(json)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return prettyStringify
   }
 }

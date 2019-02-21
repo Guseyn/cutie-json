@@ -9,7 +9,7 @@ class Value extends AsyncObject {
     super(json, path)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (json, path) => {
       return eval(`json.${path}`)
     }

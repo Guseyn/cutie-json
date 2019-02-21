@@ -8,7 +8,7 @@ class StringifiedJSON extends AsyncObject {
     super(json)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return JSON.stringify
   }
 }
